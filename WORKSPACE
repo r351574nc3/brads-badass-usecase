@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
     name = "com_github_r351574nc3_rules_canary",
     remote = "https://github.com/r351574nc3/brads-badass-canary.git",
-    commit = "feffc47cee981f09bf0786cbc93afddef48c762b", # release 0.2.0
+    commit = "ee8ad4d96665b2e2a12e96d102338a7d4e206bee", # release 0.2.0
     shallow_since = "1607848914 -0700"
 )
 
